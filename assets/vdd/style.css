@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'vdd';
+	src:url('fonts/vdd.eot?q52ybg');
+	src:url('fonts/vdd.eot?q52ybg#iefix') format('embedded-opentype'),
+		url('fonts/vdd.ttf?q52ybg') format('truetype'),
+		url('fonts/vdd.woff?q52ybg') format('woff'),
+		url('fonts/vdd.svg?q52ybg#vdd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="vdd-"], [class*=" vdd-"] {
+	font-family: 'vdd';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.vdd-calendar:before {
+	content: "\e900";
+}
+.vdd-link:before {
+	content: "\e901";
+}
+.vdd-person:before {
+	content: "\e902";
+}
+.vdd-arrow-left:before {
+	content: "\e903";
+}
+.vdd-arrow-right:before {
+	content: "\e904";
+}
+.vdd-pint:before {
+	content: "\e905";
+}
+.vdd-redo:before {
+	content: "\e906";
+}
+.vdd-close:before {
+	content: "\e907";
+}
+.vdd-search:before {
+	content: "\e908";
+}
+.vdd-more:before {
+	content: "\e909";
+}
+.vdd-chatbubble:before {
+	content: "\e90a";
+}
+.vdd-github:before {
+	content: "\e90b";
+}
+.vdd-rss:before {
+	content: "\e90c";
+}
+.vdd-googleplus:before {
+	content: "\e90d";
+}
+.vdd-twitter:before {
+	content: "\e90e";
+}
+.vdd-facebook:before {
+	content: "\e90f";
+}
+.vdd-bitcoin:before {
+	content: "\e910";
+}
+.vdd-pricetags:before {
+	content: "\e911";
+}
+
