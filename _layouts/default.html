@@ -5,7 +5,6 @@
 
   <body>
 
-    {% include header.html %}
 
     <div class="page-content">
       <div class="wrapper">
@@ -13,7 +12,8 @@
       </div>
     </div>
 
-    {% include footer.html %}
+    <script src="{{ "/javascript/packery.pkgd.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/javascript/main.js" | prepend: site.baseurl }}"></script>
 
   </body>
 
