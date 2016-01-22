@@ -1,3 +1,37 @@
+/* Sidebar */
+.drawer{
+  background-color: #263238 !important;
+  color: #ECEFF1 !important;
+}
+
+.drawer-header{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.drawer-logo{
+  height: 200px;
+}
+
+.navigation{
+  background-color: #37474F !important;
+  flex-grow: 1;
+  z-index: -2;
+}
+
+.navigation-link{
+  color: #ECEFF1 !important;
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/* Grid */
 .mdl-cell a{
   display: block;
   text-decoration: none;

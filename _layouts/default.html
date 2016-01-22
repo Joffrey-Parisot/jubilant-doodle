@@ -5,14 +5,24 @@
 
   <body>
 
-    <main class="mdl-layout__content">
+    <div class="mdl-layout__container">
 
-      {{ content }}
+      <div class="mdl-layout mdl-layout--fixed-drawer">
 
-    </main>
+        {% include sidebar.html %}
 
-    <script src="{{ "/javascript/packery.pkgd.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/javascript/main.js" | prepend: site.baseurl }}"></script>
+        <main class="mdl-layout__content">
+
+          {{ content }}
+
+        </main>
+
+      </div>
+
+    </div>
+
+    <script src='{{ "/javascript/packery.pkgd.min.js" | prepend: site.baseurl }}'></script>
+    <script src='{{ "/javascript/main.js" | prepend: site.baseurl }}'></script>
 
   </body>
 
