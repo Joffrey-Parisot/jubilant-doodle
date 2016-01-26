@@ -6,7 +6,7 @@ layout: default
 
   {% for post in site.posts limit: 10 %}
 
-    <article>
+    <article class="mdl-cell {{ post.cols }}">
 
       <header>
 
@@ -27,7 +27,7 @@ layout: default
       </main>
 
       <footer>
-        <time datetime="2016-01-26T02:05:00" class="stamp" data-pubtime="20160125221946">{{ post.date | date: "%-d %b %Y" }}</time>
+        <time datetime="{{ post.date }}" pubdate>{{ post.date | date: "%-d %b %Y" }}</time>
       </footer>
 
     </article>
