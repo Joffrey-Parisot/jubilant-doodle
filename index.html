@@ -6,7 +6,7 @@ layout: default
 
   {% for post in site.posts limit: 10 %}
 
-    <article class="mdl-cell {{ post.cols }}">
+    <article class="mdl-cell {{ post.cols }} mdl-cell--12-col-phone">
 
       <header>
 
@@ -23,7 +23,7 @@ layout: default
       </header>
 
       <main class="excerpt">
-        {{ post.content }}
+        {{ post.content | strip_html | truncatewords: 30 }}
       </main>
 
       <footer>
@@ -33,89 +33,5 @@ layout: default
     </article>
 
   {% endfor %}
-
-  <div class="mdl-cell mdl-cell--4-col">
-    <a href="#">
-      <img src="/images/1.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--7-col">
-    <a href="#">
-      <img src="/images/2.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--3-col">
-    <a href="#">
-      <img src="/images/3.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--2-col">
-    <a href="#">
-      <img src="/images/4.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--6-col">
-    <a href="#">
-      <img src="/images/5.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--4-col">
-    <a href="#">
-      <img src="/images/6.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--4-col">
-    <a href="#">
-      <img src="/images/7.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--5-col">
-    <a href="#">
-      <img src="/images/8.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--8-col">
-    <a href="#">
-      <img src="/images/9.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--4-col">
-    <a href="#">
-      <img src="/images/10.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--4-col">
-    <a href="#">
-      <img src="/images/11.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--7-col">
-    <a href="#">
-      <img src="/images/1.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--1-col">
-    <a href="#">
-      <img src="/images/2.jpg">
-    </a>
-  </div>
-
-  <div class="mdl-cell mdl-cell--10-col">
-    <a href="#">
-      <img src="/images/3.jpg">
-    </a>
-  </div>
 
 </div>
